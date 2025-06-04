@@ -28,7 +28,7 @@ jobs:
         continue-on-error: true
         with:
           token: ${{ secrets.GH_TOKEN }}
-          org-name: cloudbees-days
+          org-name: middesb
           repo-name: hackers-WesTest16
           branch-name: main
           workflow-name: test-and-build-image2
